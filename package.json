@@ -1,0 +1,20 @@
+{
+  "name": "streamifyThis",
+  "version": "0.0.1",
+  "description": "streamify things as yo wish",
+  "main": "index.js",
+  "author": "dumplinginsoda",
+  "license": "MIT",
+  "jest": {
+    "verbose": true,
+    "testMatch": ["**/test.[jt]s?(x)"]
+  },
+  "private": false,
+  "dependencies": {
+    "is-valid-path": "^0.1.1"
+  },
+  "scripts": {
+  	"test": "npx jest test.js --watchAll",
+  	"test-ci": "npx jest --verbose true --runInBand"
+  }
+}
